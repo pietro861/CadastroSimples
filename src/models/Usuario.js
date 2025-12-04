@@ -14,4 +14,8 @@ const Usuario = {
     }
 };
 
+  listar: () => db.any ("SELECT id FROM usuarios");
+
+
+
 module.exports = Usuario;
